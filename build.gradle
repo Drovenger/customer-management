@@ -40,25 +40,25 @@ dependencies {
     testCompile('com.github.sbrannen:spring-test-junit5:1.2.0')
 }
 
-test {
-
-    useJUnitPlatform()
-
-    testLogging {
-        events "PASSED", "STARTED", "FAILED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
-    }
-    afterTest { desc, result ->
-        println "Testing ${desc.name} [${desc.className}]: ${result.resultType}"
-    }
-    reports {
-        html.enabled = true
-    }
-}
-
-jacocoTestReport {
-    reports {
-        xml.enabled false
-        csv.enabled false
-        html.destination file("${buildDir}/jacocoHtml")
-    }
-}
+//test {
+//
+//    useJUnitPlatform()
+//
+//    testLogging {
+//        events "PASSED", "STARTED", "FAILED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
+//    }
+//    afterTest { desc, result ->
+//        println "Testing ${desc.name} [${desc.className}]: ${result.resultType}"
+//    }
+//    reports {
+//        html.enabled = true
+//    }
+//}
+//
+//jacocoTestReport {
+//    reports {
+//        xml.enabled false
+//        csv.enabled false
+//        html.destination file("${buildDir}/jacocoHtml")
+//    }
+//}

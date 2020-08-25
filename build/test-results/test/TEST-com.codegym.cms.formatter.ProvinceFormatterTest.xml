@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.codegym.cms.formatter.ProvinceFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-24T08:45:52" hostname="DROVENGERS-LAPT" time="0.053">
-  <properties/>
-  <testcase name="parse_success()" classname="com.codegym.cms.formatter.ProvinceFormatterTest" time="0.049"/>
-  <testcase name="print()" classname="com.codegym.cms.formatter.ProvinceFormatterTest" time="0.001"/>
-  <testcase name="parse_exception()" classname="com.codegym.cms.formatter.ProvinceFormatterTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
